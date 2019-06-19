@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="images/sony.jpg" rel="icon" type="image/x-icon" />
+	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+	<title>Sony Brasil | Tecnologia e Notícias | Eletrônicos | Entretenimento | Sony BR</title>
+</head>
+
+<body>
+	<div class="barra">
+		<div class="marca"><img src="./images/sony2.jpg" title="SONY" /></div>
+		<div class="loj"><a>Loja</a></div>
+		<div class="elet"><a>Eletrônicos<img src="./images/sony7.jpg" /></a></div>
+		<div class="play"><a>PlayStation</a></div>
+		<div class="entret"><a>Entretenimento<img src="./images/sony7.jpg" /></a></div>
+		<div class="sup"><a>Suporte<img src="./images/sony7.jpg" /></a></div>
+
+		<div class="users"><a href="/users/buscarUsuarios">Usuários<img src="./images/sony7.jpg" /></a> </div>
+		<div class="login"><a href="/users/login">Entrar<img src="./images/sony7.jpg" /></a> </div>
+		<div class="conta"><a href="/users/cadastro">Criar Conta<img src="./images/sony7.jpg" /></a> </div>
+		<div class="postar"><a href="/publi">Postar<img src="./images/sony7.jpg" /></a> </div>
+		<div class="sair"><a href="/users/logout">SAIR</div>
+
+		<div class="icone1"><img src="./images/sony4.jpg" /></div>
+		<div class="icone2"><img src="./images/sony5.jpg" /></div>
+
+		<div class="sites"><a>Sites Sony<img src="./images/sony8.jpg" /></a></div>
+
+		<li>
+			<form class="busca" action="/busca" method="post">
+				<input id="busca" name="busca" type="text" placeholder="Pesquise na Sony">
+				<input class="buscabtn" type="submit" value="Buscar">
+			</form>
+		</li>
+
+	</div>
+	<div class="tv"><img src="./images/sony3.jpg" /></div>
+
+	<h5 class="menor">X90F</h5>
+	<h1 class="maior">Veja os detalhes<br> com ou sem luz</h1>
+	<br><button class="btn" title="Contraste incrível">Contraste incrível</button>
+
+	{{#each adaptavel}}
+	<div class="postagem">
+		<!--AQUII-->
+		<h3>{{titulo}}</h3>
+		<img src="images/{{titulo}}image.jpg">
+	</div>
+	{{/each}}
+
+</body>
+
+</html>

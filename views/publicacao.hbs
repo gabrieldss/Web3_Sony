@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Página Publicação</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Publicação de conteúdo:</div>
+        <form action="/publi" method="post" enctype="multipart/form-data">
+            <br />
+            <label for="titulo">Título:</label>
+            <br />
+            <input name="titulo" id="titulo" type="text" required><br>
+            <br />
+            <div>Imagem:</div><br />
+            <input type="file" name="image" required><br>
+            <br />
+            <input type="submit" value="Postar">
+        </form>
+    </body>
+</html>

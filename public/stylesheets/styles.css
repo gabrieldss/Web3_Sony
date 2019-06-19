@@ -1,0 +1,527 @@
+/* Padrão - TELA CHEIA */
+body {
+    overflow-x:hidden;
+}
+
+.postagem img {
+    margin-top: 10px;
+    margin-left: -10px;
+    width: 105%;
+    position: relative;
+    bottom: 230px;
+    margin-bottom: -10px;
+    margin-top: -70px;
+}
+.postagem h3 {
+    z-index: 1;
+    background-color: transparent;
+    color: #5865f5;;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 30px;
+    position: relative;
+    bottom:210px;
+    left: 30px;
+}
+
+.marca {
+	z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    left: 115px;
+    top: 12px;
+    cursor: pointer;
+}
+
+.barra {
+    height: 65px;
+    width: 105%;
+    margin: -10px;
+    background-color: black;
+    flex-direction: column;
+}
+
+.loj {
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    right: 420px;
+    bottom: 24px;
+    color:#e4e7eb;
+    height: 42px;
+    width: 30px;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+
+.elet {
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    right: 345px;
+    bottom: 66px;
+    color:#e4e7eb;
+    height: 42px;
+    width: 80px;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+.elet img {
+    position: relative;
+    left: 72px;
+    bottom: 20px;
+}
+
+.play {
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    right: 245px;
+    bottom: 107px;
+    color:#e4e7eb;
+    height: 41px;
+    width: 75px;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+
+.entret {
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    right: 135px;
+    bottom: 148px;
+    color:#e4e7eb;
+    height: 41px;
+    width: 110px;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+.entret img {
+    position: relative;
+    left: 98px;
+    bottom: 20px;
+}
+
+/* WebKit browsers (muda cor do texto do placeholder) */
+::-webkit-input-placeholder { 
+  color: black;
+}
+
+.busca {
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    left: 1063px;
+    bottom: 517px;
+    font-family: 'Dosis', sans-serif; 
+    border: solid 1px transparent;
+    padding: 7px 10px 10px 13px;
+}
+.buscabtn {
+    cursor: pointer;
+}
+
+.sup {
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    right: 23px;
+    bottom: 188px;
+    background-color: black;
+    color:#e4e7eb;
+    height: 40px;
+    width: 70px;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+.sup img {
+    position: relative;
+    left: 5px;
+}
+
+
+.users {
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    left: 73px;
+    bottom: 233px;
+    color:#e4e7eb;
+    height: 20px;
+    width: 55px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px; 
+}
+.users a {
+    color: white;
+    text-decoration: none;
+}
+.users img {
+    position: relative;
+    left: 2px;
+}
+
+
+.login {
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    left: 138px;
+    bottom: 268px;
+    color:#e4e7eb;
+    height: 20px;
+    width: 50px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px; 
+}
+.login a {
+    color: white;
+    text-decoration: none;
+}
+.login img {
+    position: relative;
+    left: 2px;
+}
+
+
+.conta {
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    left: 209px;
+    bottom: 303px;
+    color:#e4e7eb;
+    height: 20px;
+    width: 80px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px; 
+}
+.conta a {
+    color: white;
+    text-decoration: none;
+}
+.conta img {
+    position: relative;
+    left: 2px;
+}
+
+
+.postar {
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    left: 272px;
+    bottom: 337px;
+    color:#e4e7eb;
+    height: 20px;
+    width: 50px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px; 
+}
+.postar a {
+    color: white;
+    text-decoration: none;
+}
+.postar img {
+    position: relative;
+    left: 2px;
+}
+
+
+.sair {
+    z-index: 2;
+    margin: 0 auto;
+    position: relative;
+    left: 637px;
+    bottom: 377px;
+    color:#e4e7eb;
+    height: 20px;
+    width: 50px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 5px; 
+    font-size: 15px;
+}
+.sair a {
+    color: white;
+    text-decoration: none;
+}
+.sair img {
+    position: relative;
+    left: 2px;
+}
+
+
+.icone1 img {
+    z-index: 1;
+    position: relative;
+    left: 1003px;
+    bottom: 405px;
+    cursor: pointer;
+}
+
+.icone2 img {
+    z-index: 1;
+    position: relative;
+    left: 1033px;
+    bottom: 440px;
+    cursor: pointer;
+}
+
+.tv img {
+    margin-top: 10px;
+    margin-left: -10px;
+    width: 105%;
+}
+
+.maior {
+    background-color: transparent;
+    color:white;
+    position: relative;
+    bottom:420px;
+    left: 150px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 35px;
+}
+
+.menor {
+    background-color: transparent;
+    color:white;
+    position: relative;
+    bottom:400px;
+    left: 150px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.btn {
+    position: relative;
+    bottom:430px;
+    left: 150px;
+    color:white;
+    background: #5865f5;
+    border: solid 1px #5865f5;
+    padding: 12px 22px 12px 22px;
+    cursor: pointer;
+}
+
+/* TELA MÉDIA */
+@media screen and (max-width: 1335px) {
+    body {
+    background-image: url("sony3.jpg");
+    background-repeat: no-repeat;
+    height:700px;
+    background-position: center;
+    position: relative;
+    }
+.tv img,.loj,.elet.play,.entret,.sup,.login,.icone1, .busca {
+    display: none;
+    }
+.marca {
+    position: relative;
+    width: 50%;
+    top: 12px;
+    }
+.maior {
+    position: relative;
+    top:180px;
+    left: 100px;
+    }
+.menor {
+    position: relative;
+    top:200px;
+    left: 100px;
+    }
+.btn {
+    position: relative;
+    top:170px;
+    left: 100px;
+    }
+}
+
+/* TELA PEQUENA */
+@media screen and (max-width: 750px) {
+body {
+    background-image: url("sony3.jpg");
+    background-repeat: no-repeat;
+    height: 350px;
+    background-position: center;
+    position: relative;
+    }
+.tv img,.loj,.elet,.play,.entret,.sup,.login,.icone1,.busca,br {
+    display: none;
+}
+.barra {
+    height: 50px;
+}
+.marca {
+    position: fixed;
+    left: 40%;
+    cursor: pointer;
+    top:8px;
+    }
+.marca img {
+    height: 30px;
+    }
+.maior {
+    color:#2f353d;;
+    font-family: 'Nanum Gothic', sans-serif;
+    position: relative;
+    font-size: 25px;
+    top: 415px;
+    left: 10px;
+    }
+.menor {
+    color:#2f353d;;
+    font-family: 'Nanum Gothic', sans-serif;
+    position: relative;
+    top: 435px;
+    left: 10px;
+    }
+.btn {
+    position: relative;
+    top: 420px;
+    left: 10px;
+    }
+}
+
+/* APARECER ÍCONE DO CARRINHO */
+@media screen and (max-width: 500px) {
+    .icone2 img {
+    position: fixed;
+    left: 430px;
+    top: 7px;
+    z-index: 1;
+    height: 35px;
+    }
+}
+
+/* EFEITOS */
+.icone1 img:hover, .icone2 img:hover {
+    opacity: 0.6;
+}
+
+.loj:hover,.elet:hover,.play:hover,.entret:hover,.sup:hover {
+    border-bottom:3px solid #5252ec;
+    color:white;
+}
+
+.btn:hover {
+    background: #3e59f2;
+}
+
+.btn:active {
+    background: #0f74cc;
+}
+
+.buscauser {
+    color:red;
+}
+
+
+.usersbusca {
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+#nomeBusca {
+    width:500px;
+}
+#buscarUsuario {
+    color:white;
+    background: #5865f5;
+    border: solid 1px #5865f5;
+    padding: 5px 22px 5px 22px;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.usersinsert {
+    margin-bottom: 50px;
+}
+#inserirNome {
+    width:400px;
+    margin-bottom: 6px;
+}
+#inserirEmail {
+    width:300px;
+    margin-bottom: 8px;
+}
+#inserirUsuario {
+    color:white;
+    background: #eb9800;
+    border: solid 1px #ffa500;
+    padding: 5px 22px 5px 22px;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#excluirNome {
+    width: 350px;
+    margin-bottom: 8px;
+}
+#excluirUsuario {
+    color:white;
+    background: #831d1c;
+    border: solid 1px #93201f;
+    padding: 5px 22px 5px 22px;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.tudo {
+    margin-bottom: 60px;
+}
+#buscarTodos {
+    color:white;
+    background: #008500;
+    border: solid 1px #009400;
+    padding: 5px 22px 5px 22px;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 20px;
+}
+#deletarBanco {
+    color:white;
+    background: #ff0000;
+    border: solid 1px #ff1f1f;
+    padding: 5px 22px 5px 22px;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.msg{
+    background-color: #ff8585;
+    border: solid 1px black;
+    margin-top: -75px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 970px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.nav-link {
+    color:white;
+}
+
+.nomeBusca {
+    width: 500px;
+}
